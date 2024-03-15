@@ -26,7 +26,7 @@ function showTable() {
         for(let cols = 0; cols < arrayList[rows].length; cols++) {
 
             // ajouter l'element td et input dans le div et revenir dans le deuxieme colonne s'il y a
-            div += `<td class='border' rowspan='${arrayList[rows][cols].rowspan}' colspan='${arrayList[rows][cols].colspan}'>
+            div += `<td class='border border-1 border-black-500' rowspan='${arrayList[rows][cols].rowspan}' colspan='${arrayList[rows][cols].colspan}'>
                         <input type='text' autocomplete=off style='width:100%' class='input outline-none' data-row='${rows}' data-col='${cols}' col='colomn' data-rowspan='${arrayList[rows][cols].rowspan}' data-colspan='${arrayList[rows][cols].colspan}' />
                     </td>`;
             // console.log(`rowspan='${arrayList[rows][cols].rowspan}' , colspan='${arrayList[rows][cols].colspan}' , data-row='${rows}' , data-col='${cols}'`);

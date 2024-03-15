@@ -16,10 +16,10 @@
 <body>
     
     <?php require('../nav/navbar.php') ?>
-
-    <div class="flex justify-center font-bold outline-none" style='margin: 5% 0 0 0;'>
-        <h1 class="">Dessinner votre tableau</h1>
-    </div>
+<div class="mt-10">__</div>
+    <!-- <div class="sm:mx-auto sm:w-full sm:max-w-sm mt-10">
+            <h2 class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Designed your favorite table here</h2>
+        </div>
     <input type="button" value="+ row" class='row  hover:border-2 border-2 hover:border-blue-500 m-2 text-center py-2 px-4 bg-blue-200 cursor-pointer rounded-full'>
     <input type="button" value="+ col" class='col  hover:border-2 border-2 hover:border-blue-500 m-2 text-center py-2 px-4 bg-blue-200 cursor-pointer rounded-full'>
     
@@ -64,6 +64,7 @@
 <script src="./main.js" defer></script>
 <script defer>
     
-</script>
+</script> -->
+<?php require('main.php')?>
 </body>
 </html>
