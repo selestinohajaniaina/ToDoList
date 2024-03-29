@@ -14,7 +14,7 @@ for (let i = 0; i < rows; i++) {
     let tr = $('<tr></tr>');
     for (let j = 0; j < cols; j++) {
         // <input type='text' class='input outline-none' auto-complete=off/>
-        tr.append($(`<td class='border' data-row='${i}' data-col='${j}' data-colspan='1' data-rowspan='1'>ligne: ${i}, colonne: ${j}</td>`));
+        tr.append($(`<td class='border border-black' data-row='${i}' data-col='${j}' data-colspan='1' data-rowspan='1'><input type='text' /></td>`));
     }
     // ajouter chaque au tableau HTML
     $('.conteneur').append(tr);
